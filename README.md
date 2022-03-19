@@ -39,14 +39,16 @@
 
 如果这些概念对你来说完全陌生，我建议先阅读后面“如何开始”（How to get started）这部分，或者谷歌一下你可能不理解的单词。
 
-### 专门方向
+### 专业方向
 
-在区块链开发中，有许多不同的专门方向，每个反向都需要不同的技能，对分布式系统、基本密码学的大致了解，以及了解智能合约如何运作一般情况下就足够了。 在本指南中，我将尝试对他们提供一个大致概述的同时，也就学习者应该优先考虑的资源和优先学习的顺序给出我所能提供的最佳指导。也有许多角色是我不熟悉的，所以请随时提出修改请求或用DM提出建议。
+在区块链开发中，有许多不同的专业方向，每个反向都需要不同的技能，对分布式系统、基本密码学的大致了解，以及了解智能合约如何运作一般情况下就足够了。 在本指南中，我将尝试对他们提供一个大致概述的同时，也就学习者应该优先考虑的资源和优先学习的顺序给出我所能提供的最佳指导。也有许多角色是我不熟悉的，所以请随时提出修改请求或用DM提出建议。
 
 
-#### Skill-based
+#### 基于技能
 
 There are different sets of skills required for different specializations, the technology stack and knowledge needed are determined by the layer and application that you want to target as a developer. I believe that everyone should get a solid general foundation and try out different areas and niches before settling on the main stack they want to focus on. Some people choose specializations according to the end goal that they want to accomplish using blockchain-based technologies, others like myself feel like everything is interesting and can't settle on a single one to specialize in when confronted with an analysis paralysis situation.
+
+不同的专业方向需要不同的技能， 所需的技术栈和知识是由你想开发的应用及他在哪一层上所决定的。我觉得每个人都应该有坚实的基础， 在这之后他要
 
 This guide will cover these main tracks, however anyone is free to submit a pull-request to add more or expand on the already existing ones:
 
