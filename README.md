@@ -6,6 +6,14 @@
 
 I’m trying to gather resources to fund the development of this public good blockchain development guide and so I got my fren Ana Rueda (@ruedart) to create this amazing graphic for the [Mirror NFT edition](https://dcbuilder.mirror.xyz/PLNPOmKkYaP14kJa5A5pJgyIlg4dWHpjDiHS7BGC7J4). The funds will go to the continued development of this guide (90%) and to Ana for the creation of the art (10%). I’m open to discussion on how to structure the open collaboration around the guide and to allocating the funds into a community-owned multi-sig. The goal is to use the funds gathered on Mirror, Gitcoin grants round 13 and elsewhere to incentivize developers to create sections through bounty submissions. If this idea doesn’t gather appeal, then I will send the funds to the Gitcoin grants matching round so that other public goods get funded. Links to support the development of the blockchain development guide:
 
+我正在努力收集资源为《区块链开发指南》这个公益项目的开发提供资金，因此我让我的朋友Ana Rueda（@ruedart）创作了这幅超棒的作品：
+
+[Mirror NFT版本]（https://dcbuilder.mirror.xyz/PLNPOmKkYaP14kJa5A5pJgyIlg4dWHpjDiHS7BGC7J4）
+
+这些资金将用于本指南的持续开发（90%）和感谢Ana的艺术创作（10%）。我愿意讨论如何组织围绕指南的开放合作，将把这笔资金转到一个社区所有的多签钱包。我们的目标是利用来自于Mirror和Gitcoin第13轮的捐赠以及其他地方收集的资金，通过提交赏金（bounty submissions）的方式来激励开发者。如果这个方法没有提高该项目的曝光度，那么我将把资金用于资助Gitcoin比赛
+
+
+
 - [Mirror NFTs](https://dcbuilder.mirror.xyz/PLNPOmKkYaP14kJa5A5pJgyIlg4dWHpjDiHS7BGC7J4)
 - [Gitcoin grants](https://gitcoin.co/grants/4975/devpillme-a-public-good-blockchain-development-gu) (Gitcoin grants round 13 goes from march 9th - 24th, happens recurrently every 3 months)
 
