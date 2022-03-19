@@ -21,13 +21,11 @@
 
 现在有无数制作精良的资源， 从各个专业角度介绍如何学习区块链开发的资源，然而， 要根据自己的兴趣获得指导和个性化的建议依然很困难。 我写这篇指南是为了把我这些年找到的资源聚集起来， 再加上怎么使用他们以便从实用角度最大限度的理解和学习它们， 从而尽快在这个领域中建造出很酷的东西。
 
-This guide will focus on the Ethereum ecosystem as that's where most developers and applications are. If you are interested in other ecosystems that are non-EVM compatible and are not L2s on Ethereum, then check out their respective documentation or guides written by their developer communities. Examples of other non-EVM compatible blockchains that are popular are Solana (Rust/Anchor), Polkadot (Rust/Substrate), Cosmos, Terra, and others. Most of these blockchains do or will support the EVM stack through various initiatives like Neon EVM (Solana), Moonbeam/Moonriver (Polkadot/Kusama), EVMOS (Cosmos), etc.
+本指南将专注于以太生态系统， 因为多数开发人员和应用都基于这个。 如果您对其他生态感兴趣， 这个生态非EVM兼容并且也不是以太的L2， 那么请查看他们各自的文档或者其他开发者社区。 其他非EVM兼容的著名链包括Solana(Rust/Anchor)， Pokadot波卡（Rust/Substrate）, Cosmos, Terra等。 这些链中的多数支持或者即将通过各种措施支持EVM栈（在自己链上部署以太坊虚拟机）， 比如Solana的Neon EVM, Polkadot/Kusama的Moonbeam/Moonriver, Cosmos的EVMOS等。
 
-本指南将专注于以太生态系统， 因为多数开发人员和应用都基于这个。 如果您对其他生态感兴趣， 这个生态非EVM兼容并且也不是以太的L2， 那么请查看他们各自的文档或者其他开发者社区。 其他非
+我真心希望这个指南能成为一个社区来源的公益项目，每个人都能从中获益。我将尽我所能向更多区块链开发者社区介绍这个产品，以获得建设性的反馈、校对帮助，以及对如何使其成为现有的最佳指南的见解。
 
-I really want this guide to become a community-sourced public good that everyone will be able to take advantage of. I will do my best to present it to the wider blockchain developer community to get constructive feedback, proofreading help, and insight into how to make it the best available guide available. 
-
-### What is blockchain development?
+### 什么是区块链开发
 
 There are two main categories in my mind, either you build the infrastructure that runs blockchain-based networks or you build applications that run on top of these decentralized and permissionless networks. Of course, this differentiation doesn't encompass all types of development on blockchains, but it is a good way to get started. 
 
