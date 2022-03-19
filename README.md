@@ -4,28 +4,26 @@
 
 ## 支持这个公益项目
 
-I’m trying to gather resources to fund the development of this public good blockchain development guide and so I got my fren Ana Rueda (@ruedart) to create this amazing graphic for the [Mirror NFT edition](https://dcbuilder.mirror.xyz/PLNPOmKkYaP14kJa5A5pJgyIlg4dWHpjDiHS7BGC7J4). The funds will go to the continued development of this guide (90%) and to Ana for the creation of the art (10%). I’m open to discussion on how to structure the open collaboration around the guide and to allocating the funds into a community-owned multi-sig. The goal is to use the funds gathered on Mirror, Gitcoin grants round 13 and elsewhere to incentivize developers to create sections through bounty submissions. If this idea doesn’t gather appeal, then I will send the funds to the Gitcoin grants matching round so that other public goods get funded. Links to support the development of the blockchain development guide:
-
 我正在努力收集资源为《区块链开发指南》这个公益项目的开发提供资金，因此我让我的朋友Ana Rueda（@ruedart）创作了这幅超棒的作品：
 
-[Mirror NFT版本]（https://dcbuilder.mirror.xyz/PLNPOmKkYaP14kJa5A5pJgyIlg4dWHpjDiHS7BGC7J4）
+[Mirror NFT]（https://dcbuilder.mirror.xyz/PLNPOmKkYaP14kJa5A5pJgyIlg4dWHpjDiHS7BGC7J4）
 
-这些资金将用于本指南的持续开发（90%）和感谢Ana的艺术创作（10%）。我愿意讨论如何组织围绕指南的开放合作，将把这笔资金转到一个社区所有的多签钱包。我们的目标是利用来自于Mirror和Gitcoin第13轮的捐赠以及其他地方收集的资金，通过提交赏金（bounty submissions）的方式来激励开发者。如果这个方法没有提高该项目的曝光度，那么我将把资金用于资助Gitcoin比赛
-
-
+这些资金将用于本指南的持续开发（90%）和感谢Ana的艺术创作（10%）。我愿意随时讨论如何组织围绕指南的合作，将把这笔资金转到一个社区所有的多签钱包。我们的目标是利用来自于Mirror和Gitcoin第13轮的捐赠以及其他地方收集的资金，通过提交赏金（bounty submissions）的方式来激励开发者。如果这个方法没有提高该项目的曝光度，那么我将把资金用于资助Gitcoin比赛以使得其他公益项目得到资助， 以下是对《区块链开发指南》的支持链接：
 
 - [Mirror NFTs](https://dcbuilder.mirror.xyz/PLNPOmKkYaP14kJa5A5pJgyIlg4dWHpjDiHS7BGC7J4)
-- [Gitcoin grants](https://gitcoin.co/grants/4975/devpillme-a-public-good-blockchain-development-gu) (Gitcoin grants round 13 goes from march 9th - 24th, happens recurrently every 3 months)
+- [Gitcoin grants](https://gitcoin.co/grants/4975/devpillme-a-public-good-blockchain-development-gu) (Gitcoin 第13轮捐赠3月9日开始3月24日结束，每3个月举办一次)
 
-## Contributors
+## 贡献者
 
-If you want to contribute, please join [this Telegram group](https://t.me/devpillme) that I created for collaborators so that we can better coordinate and distribute tasks. Eventually we will migrate to a more suitable Discord/Forum setup.
+如果你想要为这个项目提供贡献， 请加入我为大家创建的[Telegram群](https://t.me/devpillme) 以便我们可以更好的协作和分配任务， 之后我们会迁移到Discord和论坛。
 
-## Introduction
+## 介绍
 
-Nowadays there are countless well-made resources on how to learn blockchain development of all kinds and with different specializations in mind, however, it is still very hard to get guidance and personalized suggestions based on your interests. I am writing this guide in order to provide an aggregator of all the resources that I've found over the years, plus give some opinionated commentary on how to approach them and how to use them in order to maximize learning and practical understanding in order to get building cool things in the space as soon as possible.
+现在有无数制作精良的资源， 从各个专业角度介绍如何学习区块链开发的资源，然而， 要根据自己的兴趣获得指导和个性化的建议依然很困难。 我写这篇指南是为了把我这些年找到的资源聚集起来， 再加上怎么使用他们以便从实用角度最大限度的理解和学习它们， 从而尽快在这个领域中建造出很酷的东西。
 
 This guide will focus on the Ethereum ecosystem as that's where most developers and applications are. If you are interested in other ecosystems that are non-EVM compatible and are not L2s on Ethereum, then check out their respective documentation or guides written by their developer communities. Examples of other non-EVM compatible blockchains that are popular are Solana (Rust/Anchor), Polkadot (Rust/Substrate), Cosmos, Terra, and others. Most of these blockchains do or will support the EVM stack through various initiatives like Neon EVM (Solana), Moonbeam/Moonriver (Polkadot/Kusama), EVMOS (Cosmos), etc.
+
+本指南将专注于以太生态系统， 因为多数开发人员和应用都基于这个。 如果您对其他生态感兴趣， 这个生态非EVM兼容并且也不是以太的L2， 那么请查看他们各自的文档或者其他开发者社区。 其他非
 
 I really want this guide to become a community-sourced public good that everyone will be able to take advantage of. I will do my best to present it to the wider blockchain developer community to get constructive feedback, proofreading help, and insight into how to make it the best available guide available. 
 
