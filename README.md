@@ -21,27 +21,28 @@
 
 现在有无数制作精良的资源， 从各个专业角度介绍如何学习区块链开发的资源，然而， 要根据自己的兴趣获得指导和个性化的建议依然很困难。 我写这篇指南是为了把我这些年找到的资源聚集起来， 再加上怎么使用他们以便从实用角度最大限度的理解和学习它们， 从而尽快在这个领域中建造出很酷的东西。
 
-本指南将专注于以太生态系统， 因为多数开发人员和应用都基于这个。 如果您对其他生态感兴趣， 这个生态非EVM兼容并且也不是以太的L2， 那么请查看他们各自的文档或者其他开发者社区。 其他非EVM兼容的著名链包括Solana(Rust/Anchor)， Pokadot波卡（Rust/Substrate）, Cosmos, Terra等。 这些链中的多数支持或者即将通过各种措施支持EVM栈（在自己链上部署以太坊虚拟机）， 比如Solana的Neon EVM, Polkadot/Kusama的Moonbeam/Moonriver, Cosmos的EVMOS等。
+本指南将专注于以太生态系统， 因为多数开发人员和应用都基于这个。 如果您对其他生态感兴趣， 这个生态非EVM兼容并且也不是以太的L2， 那么请查看他们各自的文档或者其他开发者社区。 其他非EVM兼容的著名链包括Solana(Rust/Anchor)， Pokadot波卡（Rust/Substrate）, Cosmos, Terra等。 这些链中的多数支持或者即将通过各种措施支持EVM栈（译者注：在自己链上部署以太坊虚拟机）， 比如Solana的Neon EVM, Polkadot/Kusama的Moonbeam/Moonriver, Cosmos的EVMOS等。
 
 我真心希望这个指南能成为一个社区来源的公益项目，每个人都能从中获益。我将尽我所能向更多区块链开发者社区介绍这个产品，以获得建设性的反馈、校对帮助，以及对如何使其成为现有的最佳指南的见解。
 
 ### 什么是区块链开发
 
-There are two main categories in my mind, either you build the infrastructure that runs blockchain-based networks or you build applications that run on top of these decentralized and permissionless networks. Of course, this differentiation doesn't encompass all types of development on blockchains, but it is a good way to get started. 
+我觉得区块链开发有两大类， 一种是建立基于区块链网络的基础设施， 一种是建立运行在这些去中心化和无需许可的网络上的应用。 当然这种分类方式可能不能囊括所有的在区块链上的开发模式，但这样分类是个挺好的开始。
 
-By blockchain infrastructure, people usually mean client implementations of blockchain protocols that nodes or validators run to keep the chains running. These clients are usually focused on distributed ledger technology, networking, virtual machines, and various other low-level types of engineering. The client is what enforces the rules of the blockchain protocol, runs the consensus mechanism, that executes all transactions in the network and makes sure all nodes are in sync, and more. This is also known as core blockchain development, which is not what most devs picture when thinking about blockchain or web3 development in general. There are various niches within blockchain development itself as well; you can focus on improving execution capabilities with technologies like rollups, validiums, or volitions, you can improve decentralization and security guarantees by innovating on the consensus layer of the protocol, etc.
+人们所说的区块链基础设施是指， 节点和验证者(validators)运行的区块链协议的客户端实现，他们保障了链的正常运行。 这些客户端通常专注于分布式账本，网络，虚拟机，以及其他各种各样的底层工程类型。 客户端执行区块链协议的规则， 运行共识机制， 同时执行网络中所有的交易并确保所有节点之间的同步。 这也被称为核心区块链开发， 这不是大多数普通开发者脑海中的区块链或者web3开发的样子。区块链开发中有很多细分， 你可以通过使用诸如rollups(译者注：https://westar.io/blog/rollup/)， validiums, 或者volitions这些技术，改善链的执行能力， 或者通过对协议的共识层的创新来提高去中心化和安全性等等。
 
-There's also blockchain infrastructure that supports the application layer by providing APIs to access blockchain data like oracles for smart contracts, indexing services for back ends, libraries that allow you to call and listen to smart contract events, decentralized storage services, and more.
+还有目的是支持应用层的区块链基础设施， 他们提供访问区块链数据的API， 比如给智能合约的预言机(oracles)， 给后端的索引服务， 或者一些可以让你请求和监听智能合约事件的库， 去中心化索引服务等等。
 
-The most popular type of blockchain development is on top of the application layer. Building decentralized applications (Dapps) can take many different forms, but it usually involves a smart contract and a user interface that interacts with that smart contract and listens to changes in the state of the blockchain. These applications can serve various use cases and can be used to build decentralized financial services, games, and so much more.
+最流行的区块链开发类型是在应用层之上。构建去中心化的应用程序（Dapps）可以有许多不同的形式，但它通常涉及一个智能合约和一个与该智能合约互动的用户界面来监听区块链状态的变化。这些应用程序可以服务于各种用例，可以用来构建去中心化的金融服务、游戏等等。
 
-There are also applications that aggregate data from different smart contracts, transactions, and events on the blockchain to provide useful insight, these apps are mostly centered around data analysis and are not necessarily decentralized, but require an understanding of the underlying blockchain-based technologies.
+还有一些应用，从区块链上不同的智能合约、交易和事件中聚合数据，以提供更有用的信息，这些应用程序大多以数据分析为中心，不一定是去中心化的，但需要了解基于区块链的底层技术（译者注：如Nansen等）。
 
-If these concepts are completely foreign to you I suggest reading the how to get started section first, or Google the words you may not understand.
+如果这些概念对你来说完全陌生，我建议先阅读后面“如何开始”（How to get started）这部分，或者谷歌一下你可能不理解的单词。
 
-### Specializations
+### 专门方向
 
-There are many different specializations within blockchain development, each requires a different set of skills, however a general understanding of distributed systems, basic cryptography, and knowing how smart contracts operate is required as a foundation for all of them. In this guide I'll try to provide a general overview of each of them as well as give the best guidance I can provide on the resources learners should prioritize and in which order they should take them. There are many roles that I'm not as familiarized with, so feel free to suggest pull requests with changes or DM with suggestions.
+在区块链开发中，有许多不同的专门方向，每个反向都需要不同的技能，对分布式系统、基本密码学的大致了解，以及了解智能合约如何运作一般情况下就足够了。 在本指南中，我将尝试对他们提供一个大致概述的同时，也就学习者应该优先考虑的资源和优先学习的顺序给出我所能提供的最佳指导。也有许多角色是我不熟悉的，所以请随时提出修改请求或用DM提出建议。
+
 
 #### Skill-based
 
