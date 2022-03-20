@@ -86,31 +86,42 @@
 
 区块链开发一开始可能令人望而生畏， 因为他包含了很多始终变化的部分。 这些部分需要来自不同领域的基础知识，却依然在快速迭代，不像是如web开发这样的其他开发领域这么成熟。 此外每个应用都有一个金融相关的部分， 因为你是在一个价值层(value layer)上编程。然而这并不像你想象的那么难， 一旦你熟悉了基础知识， 理解了其他的一切， 通常只是把一些一般的理解应用于特定的情况而已。如果你如果你建立了一个坚实的基础， 你会发现处理一些复杂的问题或者解决新问题的时候会容易得多。
 
-
-If you have a background in computer science, mathematics, or any related field, then you will have a much easier time getting started with blockchain development as many foundational concepts are abstractions of algorithms and data structures. If you are a complete beginner then please make sure you take the initial few steps with patience so as to not feel overwhelmed. Once you start familiarizing yourself with the material you will start to feel like it is more manageable.
-
+如果你有计算机科学， 数学或者其他相关的背景， 你会发现开始区块链变成容易的多， 因为很多基础概念来自于算法或者数据结构。 如果你是个这方面的新手， 请耐心一点完成最初的几个步骤以使得你不要感到不知所措， 当你开始熟悉这些材料的时候， 你会发现后续的只是更容易被弄懂了。
 
 
-### General foundation
+### 一般基础
 
-In order to get started with blockchain development on Ethereum, one must first get started with understanding how blockchains work in order to build a mental model of how each moving piece works and to get an understanding of the design principles which will govern your development experience.
+为了开始基于以太坊的区块链编程， 第一件需要搞清楚的事情就是区块链是如何工作的， 搞清楚这个才能在心中建立一种每部分是如何运行的具体印象， 这样可以使得你更好的了解设计原则， 从而也让你更好的管理你的开发。
 
-#### Blockchains
+#### 区块链
 
-The term blockchain has two different meanings, it can either relate to a data structure or to a computer network. 
+区块链(Blockchain)这个词有两种不同的含义， 他既是一个数据结构， 同时又是一个计算机网络。
 
-A blockchain (data structure) consists of sets of transactions or data bundled inside a container where each container has a cryptographic [hash](https://www.youtube.com/watch?v=QJ010l-pBpE) of the data in the previous container (block) within it. If the contents of the previous block change, the hash changes as well and thanks to this feature we can assure that the data hasn't been tampered with. The second consequence of the blockchain data structure is that it is append-only. You can't prepend data to it, nor modify the data already within it, as that would alter the hashes of all the blocks succeeding the ones that have been modified. This is why we call blockchains immutable.
-
+区块链（数据结构）由捆绑在一个容器内的交易集或数据集组成，每个容器内都有前一个容器（区块）中的数据的加密[哈希](https://www.youtube.com/watch?v=QJ010l-pBpE)。如果前一个区块的内容发生变化，这个区块的哈希值也会发生变化，由于这个特点，我们可以保证数据没有被篡改。区块链数据结构的第二个特性是，它是”只追加“的（Append-only）。你不能向这个结构前面添加数据，也不能修改已经在其中的数据，因为这将改变所有在之后的区块的哈希值。这就是为什么我们称区块链为不可变的。
 
 A blockchain (network) is a network of computers that have a synchronized ledger of transactions that uses the blockchain (data structure) for storing data (usually inside of merkle/verkle trees). The blockchain is powered by miners/validators which operate under a so-called consensus algorithm, this algorithm helps coordinate who produces and organizes blocks as well as indicating which is the longest chain, by updating the head of the blockchain continuously. Blockchains have 3 main properties which they try to optimize for; Security, Decentralization, and Scalability. They achieve security and decentralization through their consensus algorithm where many different parties need to either provide resources mostly in the form of running expensive operations on massive hardware facilities with [Proof-of-Work](https://en.wikipedia.org/wiki/Proof_of_work) (PoW) or by staking economic resources in the network with [Proof-of-Stake](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/) (PoS). The more participants and the more distributed the power dynamics among those participants, the more security and decentralization. There are many other features that contribute to decentralization, like client software which is able to be run on consumer hardware so that anyone can synchronize the state of the blockchain in their nodes, minimizing how many transactions you can process per block so as to not make the state of it too big and much more. 
 
-- **Further reading**
 
-In order to understand how blockchains work beyond my simple explanation here read and watch the following resources:
+区块链（网络）是一个计算机网络，它有一个同步的交易账本，使用区块链（数据结构）来存储数据（通常在merkle/verkle树内， merkle树的根节点是子结点数据的哈希，可以用来快速比较大量的数据是不是一致， 关于merkle树的介绍详见：https://zhuanlan.zhihu.com/p/39271872）。
+
+区块链由矿工/验证者提供算力，在共识算法下运作，这种算法协调产生和组织区块，以及通过持续更新区块链的头部来标识哪个是最长的链。有三个开发者们试图去优化的区块链的属性；安全、去中心化和可扩展性。它们通过共识算法实现安全和去中心化，
+
+在共识算法中，要么不同的参与者以在一个大型计算设备上运行一个非常昂贵的计算过程的方式来提供资源，这种方式称为[工作证明](https://en.wikipedia.org/wiki/Proof_of_work) (PoW)，或者在网络中抵押经济资源， 这种方式称为[权益证明](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/) (PoS)。参与者越多，权力在这些参与者中越分散，安全性和去中心化程度就越高。
+
+还有很多其他特性有助于去中心化，比如可以在消费类硬件上运行的客户端软件，这样任何人都可以在他们的节点上同步区块链的状态；尽量减少每个区块可以处理的交易数量，以免使它的状态过大等等。
+
+- **延伸阅读**
+
+这里我只是简单解释了一下， 为了能更好的理解区块链是怎么运行的， 请观看一下材料
+
 - [Blockchain Explained - Investopedia](https://www.investopedia.com/terms/b/blockchain.asp)
 - [Blockchain 101 - Anders Brownworth](https://www.youtube.com/watch?v=_160oMzblY8)
 - [But how does Bitcoin actually work? - 3Blue1Brown](https://www.youtube.com/watch?v=bBC-nXj3Ng4)
 - Optional (cultural significance): [Bitcoin whitepaper](https://bitcoin.org/bitcoin.pdf)
+
+- **中文延伸阅读**
+
+- [李永乐老师的视频] (https://www.bilibili.com/video/BV1Bb411B7dq）
 
 
 #### Ethereum
