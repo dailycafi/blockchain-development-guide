@@ -107,16 +107,16 @@
 
 还有很多其他措施来提高去中心化，比如可以在消费类硬件上运行的客户端软件，这样任何人都可以在他们的节点上同步区块链的状态；尽量减少每个区块可以处理的交易数量，以免使它的状态过大等等。
 
-- **延伸阅读**
+**延伸阅读**
 
-这里我只是简单解释了一下， 为了能更好的理解区块链是怎么运行的， 请观看一下材料
+这里我只是简单解释了一下， 为了能更好的理解区块链是怎么运行的， 请查看以下材料
 
 - [Blockchain Explained - Investopedia](https://www.investopedia.com/terms/b/blockchain.asp)
 - [Blockchain 101 - Anders Brownworth](https://www.youtube.com/watch?v=_160oMzblY8)
 - [But how does Bitcoin actually work? - 3Blue1Brown](https://www.youtube.com/watch?v=bBC-nXj3Ng4)
 - Optional (cultural significance): [Bitcoin whitepaper](https://bitcoin.org/bitcoin.pdf)
 
-- **中文延伸阅读**
+**中文延伸阅读**
 
 - [李永乐老师的视频] (https://www.bilibili.com/video/BV1Bb411B7dq）
 
