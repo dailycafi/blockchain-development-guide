@@ -29,7 +29,7 @@
 
 我觉得区块链开发有两大类， 一种是建立基于区块链网络的基础设施， 一种是建立运行在这些去中心化和无需许可的网络上的应用。 当然这种分类方式可能不能囊括所有的在区块链上的开发模式，但这样分类是个挺好的开始。
 
-人们所说的区块链基础设施是指， 节点和验证者(validators)运行的区块链协议的客户端实现，他们保障了链的正常运行。 这些客户端通常专注于分布式账本，网络，虚拟机，以及其他各种各样的底层工程类型。 客户端执行区块链协议的规则， 运行共识机制， 同时执行网络中所有的交易并确保所有节点之间的同步。 这也被称为核心区块链开发， 这不是大多数普通开发者脑海中的区块链或者web3开发的样子。区块链开发中有很多细分， 你可以通过使用诸如rollups(译者注：https://westar.io/blog/rollup/)， validiums, 或者volitions这些技术，改善链的执行能力， 或者通过对协议的共识层的创新来提高去中心化和安全性等等。
+人们所说的区块链基础设施是指， 节点和验证者(validators)运行的区块链协议的客户端实现，他们保障了链的正常运行。 这些客户端通常专注于分布式账本，网络，虚拟机，以及其他各种各样的底层工程类型。 客户端执行区块链协议的规则， 运行共识机制， 同时执行网络中所有的交易并确保所有节点之间的同步。 这也被称为核心区块链开发， 这不是大多数普通开发者脑海中的区块链或者web3开发的样子。区块链开发中有很多细分， 你可以通过使用诸如rollups(译者注：https://westar.io/blog/rollup/)， validiums(译者注：是个去年发明的词， Vitalik的twitter讨论过：https://twitter.com/vitalikbuterin/status/1267455602764251138 ， 是个线下的rollup), 或者volitions（译者注：数据相关， 以上三个词应该之后会涉及到， 这里只是概述， https://medium.com/starkware/volition-and-the-emerging-data-availability-spectrum-87e8bfa09bb） 这些技术，改善链的执行能力， 或者通过对协议的共识层的创新来提高去中心化和安全性等等。
 
 还有目的是支持应用层的区块链基础设施， 他们提供访问区块链数据的API， 比如给智能合约的预言机(oracles)， 给后端的索引服务， 或者一些可以让你请求和监听智能合约事件的库， 去中心化索引服务等等。
 
@@ -37,57 +37,59 @@
 
 还有一些应用，从区块链上不同的智能合约、交易和事件中聚合数据，以提供更有用的信息，这些应用程序大多以数据分析为中心，不一定是去中心化的，但需要了解基于区块链的底层技术（译者注：如Nansen等）。
 
-如果这些概念对你来说完全陌生，我建议先阅读后面“如何开始”（How to get started）这部分，或者谷歌一下你可能不理解的单词。
+如果这些概念对你来说完全陌生，我建议先阅读后面“如何开始”（#how-to-get-started）这部分，或者谷歌一下你可能不理解的单词。
 
-### 专业方向
+### 方向
 
 在区块链开发中，有许多不同的专业方向，每个反向都需要不同的技能，对分布式系统、基本密码学的大致了解，以及了解智能合约如何运作一般情况下就足够了。 在本指南中，我将尝试对他们提供一个大致概述的同时，也就学习者应该优先考虑的资源和优先学习的顺序给出我所能提供的最佳指导。也有许多角色是我不熟悉的，所以请随时提出修改请求或用DM提出建议。
 
 
 #### 基于技能
 
-There are different sets of skills required for different specializations, the technology stack and knowledge needed are determined by the layer and application that you want to target as a developer. I believe that everyone should get a solid general foundation and try out different areas and niches before settling on the main stack they want to focus on. Some people choose specializations according to the end goal that they want to accomplish using blockchain-based technologies, others like myself feel like everything is interesting and can't settle on a single one to specialize in when confronted with an analysis paralysis situation.
 
-不同的专业方向需要不同的技能， 所需的技术栈和知识是由你想开发的应用及他在哪一层上所决定的。我觉得每个人都应该有坚实的基础， 在这之后他要
+不同的专业方向需要不同的技能， 所需的技术栈和知识是由你想开发的应用及他在哪一层上所决定的。我觉得每个人首先都应该有坚实的基础， 在决定要专注于某种开发之前， 要应该去尝试不同的细分领域。 有的人是根据最终目的去选择他们要做什么方向， 另一些人像我一样对每件事都很有兴趣， 因此有选择困难症， 没办法决定自己要具体做哪个方向。
 
-This guide will cover these main tracks, however anyone is free to submit a pull-request to add more or expand on the already existing ones:
+本指南将覆盖到所有这些主要的技术路线，同时所有人随时都可以发起pull-request来添加更多的， 或者扩展目前存在的。
 
 
-- [Frontend development](#front-end-development)
-- [Smart contract development](#smart-contract-development)
-- [Backend blockchain development](#backend-development)
-- [Core protocol development](#core-protocol-development)
-- [Full-stack blockchain development](#full-stack-blockchain-development)
+- [前端开发](#front-end-development)
+- [智能合约开发](#smart-contract-development)
+- [区块链后端开发](#backend-development)
+- [核心协议开发](#core-protocol-development)
+- [全栈区块链开发](#full-stack-blockchain-development)
 
-**Coming soon**
+**即将更新**
 
-- [Security engineer](#security-engineer)
-- [MEV searcher](#mev-searcher)
-- [Cryptographer](#cryptographer)
-- [Blockchain data analytics](#blockchain-data-analytics)
+- [安全](#security-engineer)
+- [MEV searcher(译者注：Maximum Extractable Value, 矿工最大可提取价值， 介绍如下https://www.ethereum.cn/Thinking/MEV)](#mev-searcher)
+- [密码学](#cryptographer)
+- [区块链数据分析](#blockchain-data-analytics)
 
-#### Application-based
+#### 基于应用
 
-Another way to separate types of blockchain development is not based on the underlying tech stack, but on the use case that you are targeting. These are the categories that I believe are the most popular, however, there are many others that I'm not covering to keep the scope of this article more manageable. 
+另一种区分区块链开发种类的方式， 不是基于技术栈， 而是基于目标用例。 我觉得这种方式是最受欢迎的， 但是为了让这篇文章可控， 有很多分类在这篇文章中我并没有涉及。
 
-**Coming soon**
+**即将更新**
 
-- [DeFi](#defi)
-- [Creator Economy](#creator-economy)
-- [MEV](#mev)
+- [区块链金融（DeFi）](#defi)
+- [去中心化创作者经济（Creator Economy）](#creator-economy)
+- [矿工最大可提取价值（MEV）](#mev)
 - [L2s](#l2s)
-- [Infrastructure](#infrastructure)
-- [Gaming](#gaming-development)
-- [Privacy](#privacy)
-- [Coordination / Public goods](#coordination--public-goods)
+- [基础设施（Infrastructure）](#infrastructure)
+- [游戏](#gaming-development)
+- [隐私（Privacy）](#privacy)
+- [合作与公益项目（Coordination / Public goods）](#coordination--public-goods)
 
-## How to get started?
+## 如何开始？
 
-No matter if you are a beginner programmer or if you've been coding for years, this guide will provide resources for all levels of expertise. If there is something that you already know in the specialization roadmaps that I have here, feel free to skip the material or use it as an opportunity to review what you already know and potentially fill in some gaps in your understanding.
+无论你是一位编程初学者还是已经从事这项工作多年， 此指南都将为你提供针对不同级别的资料。 如果发现专业路线图中有你已经充分了解的部分， 请随时跳过， 或者把他当做一次复习的机会， 来填补你可能有的理解上的空白。 
 
-Blockchain development might seem very intimidating at first, there are many moving parts, foundational knowledge from various different fields is required, the technologies are constantly evolving and aren't as mature as in other areas of development such as in the web development space, there is a financial aspect to almost every application as you are programming on top of a value layer, etc. However, it is not as hard as you might think. Once you get familiarized with the basics, understanding everything else that is going on is usually just a matter of applying a general understanding to a specific situation. If you build a strong foundation then it will be much easier to process more complex topics and reason about problems relating to a new subject matter.
+区块链开发一开始可能令人望而生畏， 因为他包含了很多始终变化的部分。 这些部分需要来自不同领域的基础知识，却依然在快速迭代，不像是如web开发这样的其他开发领域这么成熟。 此外每个应用都有一个金融相关的部分， 因为你是在一个价值层(value layer)上编程。然而这并不像你想象的那么难， 一旦你熟悉了基础知识， 理解了其他的一切， 通常只是把一些一般的理解应用于特定的情况而已。如果你如果你建立了一个坚实的基础， 你会发现处理一些复杂的问题或者解决新问题的时候会容易得多。
+
 
 If you have a background in computer science, mathematics, or any related field, then you will have a much easier time getting started with blockchain development as many foundational concepts are abstractions of algorithms and data structures. If you are a complete beginner then please make sure you take the initial few steps with patience so as to not feel overwhelmed. Once you start familiarizing yourself with the material you will start to feel like it is more manageable.
+
+
 
 ### General foundation
 
