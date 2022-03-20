@@ -61,7 +61,7 @@
 **即将更新**
 
 - [安全](#security-engineer)
-- [MEV searcher(译者注：Maximum Extractable Value, 矿工最大可提取价值， 介绍如下https://www.ethereum.cn/Thinking/MEV)](#mev-searcher)
+- [MEV searcher](#mev-searcher)  [Maximum Extractable Value, 矿工最大可提取价值] (https://www.ethereum.cn/Thinking/MEV))
 - [密码学](#cryptographer)
 - [区块链数据分析](#blockchain-data-analytics)
 
