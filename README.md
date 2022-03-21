@@ -128,26 +128,25 @@
 
 一个很好的开始了解以太网工作原理的方式是看[Austin Griffith](https://twitter.com/austingriffith)的[ETH.BUILD YouTube 播放列表](https://www.youtube.com/playlist?list=PLJz1HruEnenCXH7KW7wBCEBnBLOVkiqIi)， 他在其中说明了ETH各部分是如何运作的。
 
-”在以太坊宇宙中， 有一个独一无二的， 拥有至高无上地位的计算机（他被称作以太坊虚拟机， 或者EVM）， 以太坊中的每个参与者都对他的状态达成一致。 任何参与者都可以向这个计算机广播一个请求， 来进行一次任意的计算。 每当一个这样的请求被广播， 网络上的其他参与者就会验证，确认， 并执行（execute）该计算。 执行过程会改变EVM的状态， 这个变化会被提交并传播给整个网络“(来源: [ethereum.org 官方文档](https://ethereum.org/en/developers/docs))
+”在以太坊宇宙中， 有一个独一无二的， 拥有至高无上地位的计算机（他被称作以太坊虚拟机， 或者EVM）， 以太坊中的每个参与者都对他的状态达成一致。 任何参与者都可以向这个计算机广播一个请求， 来进行一次任意的计算。 每当一个这样的请求被广播， 网络上的其他参与者就会验证，确认， 并执行（execute）该计算。 执行过程会改变EVM的状态， 这个变化会被提交并传播给整个网络“(来源: [以太坊官方文档](https://ethereum.org/en/developers/docs))
 
-In order to learn the basics of Ethereum, go through the [ethereum.org documentation](https://ethereum.org/en/developers/docs). Here are links for each section:
+学习以太坊的基础知识， 最好的方式莫过于查阅[以太坊官方文档](https://ethereum.org/en/developers/docs)。 而以下是其中各部分的链接)：
 
+- [以太坊简介](https://ethereum.org/zh/developers/docs/intro-to-ethereum/)
+- [ETH简介](https://ethereum.org/zh/developers/docs/intro-to-ether/)
+- [去中心化应用简介](https://ethereum.org/zh/developers/docs/dapps/)
+- [Web2与Web3的对比](https://ethereum.org/zh/developers/docs/web2-vs-web3/)
+- [账户](https://ethereum.org/zh/developers/docs/accounts/)
+- [交易](https://ethereum.org/zh/developers/docs/transactions/)
+- [以太坊虚拟机 (EVM)](https://ethereum.org/zh/developers/docs/blocks/)
+- [Gas费用](https://ethereum.org/zh/developers/docs/evm/) (这里我们跳过opcodes部分， 晚点我们再来讨论他)
+- [节点和客户端](https://ethereum.org/zh/developers/docs/gas/)
+- [网络](https://ethereum.org/zh/developers/docs/nodes-and-clients/)
+- [共识机制](https://ethereum.org/zh/developers/docs/consensus-mechanisms/)
+- [治理 / 以太坊改进提议过程 (EIP process)](https://ethereum.org/zh/governance/)
+- **以太坊路线图 - 终局之战**
 
-- [Intro to Ethereum](https://ethereum.org/en/developers/docs/intro-to-ethereum/)
-- [Intro to Ether](https://ethereum.org/en/developers/docs/intro-to-ether/)
-- [Intro to dapps](https://ethereum.org/en/developers/docs/dapps/)
-- [Web2 vs. Web3](https://ethereum.org/en/developers/docs/web2-vs-web3/)
-- [Accounts](https://ethereum.org/en/developers/docs/accounts/)
-- [Transactions](https://ethereum.org/en/developers/docs/transactions/)
-- [Ethereum Virtual Machine (EVM)](https://ethereum.org/en/developers/docs/blocks/)
-- [Gas](https://ethereum.org/en/developers/docs/evm/) (skip the Opcodes section, we'll revisit that later)
-- [Nodes and clients](https://ethereum.org/en/developers/docs/gas/)
-- [Networks](https://ethereum.org/en/developers/docs/nodes-and-clients/)
-- [Consensus mechanisms](https://ethereum.org/en/developers/docs/consensus-mechanisms/)
-- [Governance / EIP process](https://ethereum.org/en/governance/)
-- **Ethereum roadmap - Endgame**
-
-[This graphic](https://github.com/dcbuild3r/blockchain-development-guide/blob/main/images/ethereum_roadmap.png) shows all the different changes which are being implemented to Ethereum in the upcoming years. It's not necessary to understand what this is all about, but it is good to know about. I suggest watching the video resource appended after the graphic to learn more about what these flowcharts mean.
+[这幅图](https://github.com/dcbuild3r/blockchain-development-guide/blob/main/images/ethereum_roadmap.png) 向我们展示了所有未来一年会被实现的各种变化。 虽然现在暂时没有必要了解每一部分是做什么的， 但是如果你有兴趣了解一下还是有好处。 如果你有兴趣， 我建议观看图片后附加的视频资源， 以了解这些流程图的意义。
 
 - **Further reading**
   - [Ethereum Whitepaper](https://ethereum.org/en/whitepaper/)
