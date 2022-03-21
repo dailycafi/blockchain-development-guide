@@ -146,25 +146,25 @@
 - [治理 / 以太坊改进提议过程 (EIP process)](https://ethereum.org/zh/governance/)
 - **以太坊路线图 - 终局之战**
 
-[这幅图](https://github.com/dcbuild3r/blockchain-development-guide/blob/main/images/ethereum_roadmap.png) 向我们展示了所有未来一年会被实现的各种变化。 虽然现在暂时没有必要了解每一部分是做什么的， 但是如果你有兴趣了解一下还是有好处。 如果你有兴趣， 我建议观看图片后附加的视频资源， 以了解这些流程图的意义。
+[这幅流程图](https://github.com/dcbuild3r/blockchain-development-guide/blob/main/images/ethereum_roadmap.png) 向我们展示了所有未来一年会被实现的各种变化。 虽然现在暂时没有必要了解每一部分是做什么的， 但是如果你有兴趣了解一下还是有好处。如果你有兴趣，我建议观看图片后附加的视频资源，以了解流程图中每一部分的意义。
 
-- **Further reading**
-  - [Ethereum Whitepaper](https://ethereum.org/en/whitepaper/)
-  - [Why Proof of Stake - Vitalik Buterin](https://vitalik.ca/general/2020/11/06/pos2020.html)
+- **延伸阅读**
+  - [以太坊白皮书](https://ethereum.org/zh/whitepaper/)
+  - [为什么要PoS - Vitalik Buterin](https://vitalik.ca/general/2020/11/06/pos2020.html)
 
-#### Smart contracts
+#### 智能合约
 
-A smart contract is a program that runs on the Ethereum blockchain. It's a piece of code that has functions and data (state) which resides at a specific address on the Ethereum blockchain.
+智能合约是一个在以太坊上运行的程序。 它是一段包含了函数和数据（状态）的代码， 他被部署到以太坊上的一个特定地址上。
 
-Smart contracts are a type of [Ethereum account](https://ethereum.org/en/developers/docs/accounts/) meaning that they have a balance and can send transactions over the network. They are deployed on the network and run as programmed, user accounts (externally-owned accounts, or EOAs) can interact with a smart contract by submitting transactions that interact with functions that are publicly accessible. Smart contracts can be used to define rules which are enforced via code, e.g. a smart contract that allows for two parties to swap their tokens (like Uniswap).
+智能合约是一种特殊的[以太坊账户](https://ethereum.org/zh/developers/docs/accounts/) ， 这意味着它自身有余额， 也可以在网络中发送交易。 它被部署到网络上并且运行， 用户账户（外部拥有账户externally-owned accounts， 也可叫做EOAs）可以和智能合约交互并提交一个交易， 这些交易与可被访问的函数进行交互。 智能合约可以通过代码来定义规则， 比如一个智能合约可以允许两方交易他们的代币（如Uniswap）
 
-**How do I create a smart contract?**
+**怎么创建一个智能合约?**
 
-The most popular smart contract programming language which targets the Ethereum virtual machine is [Solidity](https://docs.soliditylang.org/). It is a high-level language that was influenced by C++, Python, and Javascript and so its syntax looks familiar. Solidity is statically typed, supports inheritance, libraries, user-defined types, and more. Solidity is a compiled language, which means that before having a runnable smart contract, a Solidity program needs to be run through a compiler that generates a low-level interpretation which is called bytecode. Bytecode are instructions that the EVM can understand and execute.
+在以太坊虚拟机（EVM）上最流行的智能合约编程语言是 [Solidity](https://solidity-cn.readthedocs.io/zh/develop/) (译者注：这里我提供了中文版的链接， 但中文版文档并不是最新的， 如果有能力还是组好查阅英文版文档)， 它是一种收到C++, Python和Javascript影响的高级语言， 因此语法看上去很熟悉。 Solidity是静态类型的， 支持继承， 库， 用户定义类型等特性的语言。 Solidity程序需要通过编译器运行以产生低级的字节码（bytecode）. 字节码是SVM可以理解和执行的命令。
 
-There are other languages that can be used to target the EVM like [Vyper](https://vyper.readthedocs.io/en/stable/toctree.html) and [Fe](https://fe-lang.org/) that have their pros and cons, however, they don't have as robust development ecosystems and aren't as widely used by projects deployed in production. 
+此外还有一些语言可以用来编写面相于EVM的合约， 包括 [Vyper](https://vyper.readthedocs.io/en/stable/toctree.html)和[Fe](https://fe-lang.org/)， 每种语言都有它的优缺点， 但是这些语言并没有solidity这么强大的开发生态， 因此它们没有被非常广泛的使用。
 
-Here's how a [simple counter program](https://solidity-by-example.org/first-app/) would look like in Solidity:
+这里是一个[简单的计数器](https://solidity-by-example.org/first-app/) 在Solidity中的样子:
 
 ```js
 // SPDX-License-Identifier: MIT
