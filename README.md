@@ -88,6 +88,7 @@
 
 如果你有计算机科学， 数学或者其他相关的背景， 你会发现开始区块链变成容易的多， 因为很多基础概念来自于算法或者数据结构。 如果你是个这方面的新手， 请耐心一点完成最初的几个步骤以使得你不要感到不知所措， 当你开始熟悉这些材料的时候， 你会发现后续的只是更容易被弄懂了。
 
+（译者注：后续的延伸阅读材料多数是英语， 除了会添加一些中文的阅读材料外， 在完成这个指南后将会挑选一些内容进行翻译并提供相应链接）
 
 ### 一般基础
 
@@ -121,13 +122,15 @@
 - [李永乐老师的视频] (https://www.bilibili.com/video/BV1Bb411B7dq）
 
 
-#### Ethereum
+#### 以太坊
 
-Since this is a guide about blockchain development on Ethereum, it is required to know how the Ethereum blockchain works, and the changes that it will undergo in the future so as to be prepared for what's to come as a developer. If you have done web development before you can think of changes as a new ECMAScript standard, a new browser compile target (ie. WASM), a new engine (V8), etc... The Ethereum blockchain is constantly evolving and quite a few changes will be put in place in the future before the core technologies of the network will start to ossify.
+由于这是一份关于基于以太坊的区块链开发指南， 因此我们作为开发者需要了解以太坊的工作原理， 也要知道未来的更新和发展方向。 如果你之前做过Web开发， 你可以把未来的更新类比于新的ECMAScript标准， 或者一个新的浏览器编译对象（比如WASM）， 一个新的引擎（比如V8）等等……以太坊是不断发展的， 在网络的核心技术变的稳定之前会有相当多的变化。
 
-A good way to get started with how Ethereum works is to watch [Austin Griffith](https://twitter.com/austingriffith)'s [ETH.BUILD YouTube playlist](https://www.youtube.com/playlist?list=PLJz1HruEnenCXH7KW7wBCEBnBLOVkiqIi) where he illustrates how various parts of the Ethereum blockchain work.
+一个很好的开始了解以太网工作原理的方式是看[Austin Griffith](https://twitter.com/austingriffith) 的[ETH.BUILD YouTube 播放列表](https://www.youtube.com/playlist?list=PLJz1HruEnenCXH7KW7wBCEBnBLOVkiqIi)， 他在其中说明了ETH各部分是如何运作的。
 
 "In the Ethereum universe, there is a single, canonical computer (called the Ethereum Virtual Machine, or EVM) whose state everyone on the Ethereum network agrees on. Everyone who participates in the Ethereum network (every Ethereum node) keeps a copy of the state of this computer. Additionally, any participant can broadcast a request for this computer to perform arbitrary computation. Whenever such a request is broadcast, other participants on the network verify, validate, and carry out ("execute") the computation. This execution causes a state change in the EVM, which is committed and propagated throughout the entire network." (source: [ethereum.org documentation](https://ethereum.org/en/developers/docs))
+
+在
 
 In order to learn the basics of Ethereum, go through the [ethereum.org documentation](https://ethereum.org/en/developers/docs). Here are links for each section:
 
