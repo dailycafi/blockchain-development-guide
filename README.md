@@ -126,13 +126,12 @@
 
 由于这是一份关于基于以太坊的区块链开发指南， 因此我们作为开发者需要了解以太坊的工作原理， 也要知道未来的更新和发展方向。 如果你之前做过Web开发， 你可以把未来的更新类比于新的ECMAScript标准， 或者一个新的浏览器编译对象（比如WASM）， 一个新的引擎（比如V8）等等……以太坊是不断发展的， 在网络的核心技术变的稳定之前会有相当多的变化。
 
-一个很好的开始了解以太网工作原理的方式是看[Austin Griffith](https://twitter.com/austingriffith) 的[ETH.BUILD YouTube 播放列表](https://www.youtube.com/playlist?list=PLJz1HruEnenCXH7KW7wBCEBnBLOVkiqIi)， 他在其中说明了ETH各部分是如何运作的。
+一个很好的开始了解以太网工作原理的方式是看[Austin Griffith](https://twitter.com/austingriffith)的[ETH.BUILD YouTube 播放列表](https://www.youtube.com/playlist?list=PLJz1HruEnenCXH7KW7wBCEBnBLOVkiqIi)， 他在其中说明了ETH各部分是如何运作的。
 
-"In the Ethereum universe, there is a single, canonical computer (called the Ethereum Virtual Machine, or EVM) whose state everyone on the Ethereum network agrees on. Everyone who participates in the Ethereum network (every Ethereum node) keeps a copy of the state of this computer. Additionally, any participant can broadcast a request for this computer to perform arbitrary computation. Whenever such a request is broadcast, other participants on the network verify, validate, and carry out ("execute") the computation. This execution causes a state change in the EVM, which is committed and propagated throughout the entire network." (source: [ethereum.org documentation](https://ethereum.org/en/developers/docs))
-
-在
+”在以太坊宇宙中， 有一个独一无二的， 拥有至高无上地位的计算机（他被称作以太坊虚拟机， 或者EVM）， 以太坊中的每个参与者都对他的状态达成一致。 任何参与者都可以向这个计算机广播一个请求， 来进行一次任意的计算。 每当一个这样的请求被广播， 网络上的其他参与者就会验证，确认， 并执行（execute）该计算。 执行过程会改变EVM的状态， 这个变化会被提交并传播给整个网络“(来源: [ethereum.org 官方文档](https://ethereum.org/en/developers/docs))
 
 In order to learn the basics of Ethereum, go through the [ethereum.org documentation](https://ethereum.org/en/developers/docs). Here are links for each section:
+
 
 - [Intro to Ethereum](https://ethereum.org/en/developers/docs/intro-to-ethereum/)
 - [Intro to Ether](https://ethereum.org/en/developers/docs/intro-to-ether/)
