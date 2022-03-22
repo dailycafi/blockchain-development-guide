@@ -194,7 +194,7 @@ contract Counter {
 
 **我怎么编译和部署我的第一个合约？**
 
-为了编写和部署我们的第一个智能合约， 我们将使用Remix IDE， 他是一个网站， 我们可以在上面写智能合约， 编译并部署在一个EVM的本地实例上。我们同时可以和本地部署的合约交互来测试合约的功能。为了部署上文提到的简单的计数器合约， 在[Remix](https://remix.ethereum.org/)， 在contracts文件夹下添加新的文件， 并将它命名为`Counter.sol`, 我们把[counter example](https://solidity-by-example.org/first-app/) 中的代码复制粘贴到这个文件里。之后左侧工具栏， 从上往下数的第二个图标， 他是一个Solidity语言的logo, 在Remix里代表了Solidity编译器。 在编译器中选择版本0.8.10， 这是我们合约中的Solidity版本， 然后点击 ”Compile Counter.sol“. 你编译你的合约后， 点击左侧工具栏从上往下数的第三个图标， 它此时应该叫"Deploy & Run Transactions"（部署和运行交易）。 点击"Deploy"(部署)。 等待部署完成后，页面下方你会看到一个成功提示， 代表着你已经成功编译和部署了你的第一个智能合约！现在你部署了他， 你可以通过调用`inc()` 和 `dec()` 函数来和该合约交互， 并增加或减少`count`变量的值。 你可以通过调用`get()`函数来获取`count`变量的值。
+为了编写和部署我们的第一个智能合约， 我们将使用Remix IDE， 他是一个网站， 我们可以在上面写智能合约， 编译并部署在一个EVM的本地实例上。我们同时可以和本地部署的合约交互来测试合约的功能。为了部署上文提到的简单的计数器合约， 在[Remix](https://remix.ethereum.org/)， 在contracts文件夹下添加新的文件， 并将它命名为`Counter.sol`, 我们把[counter example](https://solidity-by-example.org/first-app/) 中的代码复制粘贴到这个文件里。之后左侧工具栏， 从上往下数的第二个图标， 他是一个Solidity语言的logo, 在Remix里代表了Solidity编译器。 在编译器中选择版本0.8.10， 这是我们合约中的Solidity版本， 然后点击 ”Compile Counter.sol“. 你编译你的合约后， 点击左侧工具栏从上往下数的第三个图标， 它此时应该叫"Deploy & Run Transactions"（部署和运行交易）。 点击"Deploy"(部署)。 等待部署完成后，页面下方你会看到一个成功提示，代表着你已经成功编译和部署了你的第一个智能合约！现在你部署了他， 你可以在同一个页面的左下角， 通过调用`inc()` 和 `dec()` 函数来和该合约交互， 试着增加或减少`count`变量的值。 并可以通过调用`get()`函数来获取`count`变量的值。
 
 ![remix](./images/remix.png)
 
