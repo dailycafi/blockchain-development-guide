@@ -202,27 +202,28 @@ contract Counter {
 
 #### Web 2.0 
 
-Although blockchain developers build decentralized applications, the technologies used to build these applications overlap to a big extent. User interfaces for Dapps are hosted on the internet and are built with traditional web technologies. In order to interact with a smart contract, a user needs to submit a request to a server that hosts an application and that application needs to create a transaction, get the signature from a user via a web3 wallet like Metamask, and then submit the transaction to an Ethereum RPC. The transaction then goes to the mempool, gets picked up by a miner (PoW) / validator (PoS), gets executed and included in the blockchain, and the user interface updates once the blockchain emits an event with a successful call of a function inside of a smart contract. This is the usual flow that decentralized applications have.
+虽然区块链开发一般是指开发去中心化应用， 但用于构建这些应用程序的技术有很大一块是重叠的。 我们使用传统Web技术开发分布式应用（Dapp）的用户界面(UI)， 并且最终部署在因特网上。为了和智能合约交互，用户需要提交一个请求给部署了一个特定应用的服务器， 这个应用需要创建一个交易，通过用户的web3钱包（比如metamask）从用户处获取签名， 之后把交易提交给以太坊RPC（译者注：RPC是远程过程调用的缩写， 是从一台机器{客户端}上通过参数传递的方式调用另一台机器{服务器}上的一个函数或方法{可以统称为服务}并得到返回的结果的过程）。 该交易会进入mempool（内存池，正如正在描述的过程， 这是一组交易， 交易被广播给节点后存在这里等待），之后被矿工（对PoW过程） 或验证者(PoS)拾取， 在区块链中运行。一旦区块链通过成功调用一个智能合约中的函数发送（emit）一个事件(event) ， 用户界面就会更新。 以上就是去中心化应用最常见的流程。
 
-Any blockchain developer that wants to build full-stack applications needs to know how the internet and its most important protocols work as well as how to build user interfaces for all the major platforms (web, mobile, etc). You can think of web3 as adding a native value layer to the internet, it also helps with social coordination and resource allocation with the decentralized autonomous organization structure. It is very helpful to know how the web and the existing technologies built on top of it work and understand how crypto and web3 work in order to create better applications.
+任何想要构建全栈区块链应用的开发者都需要了解互联网和他最重要的协议是怎么工作的， 并且还需要知道如何在主要平台（web, mobile等）上构建UI。 你可以认为web3实际上是在互联网上增加了一个原生的价值层， 它也有助于构建社会协作和资源分配的去中心化的自治组织结构。了解Web和建立在其上的每个技术是如何运行的， 同时了解加密货币和web3如何工作的， 对创建一个更好的应用很有帮助。
 
 I believe that even though you might not work with developing front-ends it is still good to know how they work on a foundational level as in almost all kinds of development you'll interface with the web in some form. A good learning roadmap for the basics of how web technologies work is the [roadmap.sh frontend](https://roadmap.sh/frontend) initial steps in the roadmap. It is also a must to learn how to version control your code, Git is the most popular version control and collaboration software along with GitHub / GitLab for hosting repositories and interacting with other coders.
 
+我相信即使你不从事前端开发的工作，最基本的了解Web是如何工作的依然很有帮助。 因为在几乎所有类型的开发中，你都会以某种形式与前端对接。对于这些基础知识，一个很好的学习路线图是[roadmap.sh frontend](https://roadmap.sh/frontend)， 他提供了怎么开始学习这些知识。 同时学习怎么对你的代码进行版本控制， Git以及GitHub/GitLab这样的托管存储仓库(host repositories)无疑是最受欢迎的版本控制和软件开发协作工具， 
 
-![Frontend roadmap](./images/FE_roadmap.png)
+![前端路线图](./images/FE_roadmap.png)
 
-- **Learning resources**
-- [How does the internet work](https://www.youtube.com/watch?v=zN8YNNHcaZc)
-- [CS50 HTTP lecture](https://www.youtube.com/watch?v=PUPDGbnpSjw) (the [CS50 course](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x) on edX is a great intro into computer science)
-- [freeCodeCamp](https://www.freecodecamp.org/) - Here you can learn the basics of how HTML, CSS and JS works. Unless you're planning to write frontend interfaces you won't need it, but it's still good to experiment and learn how it works.
+- **学习资源**
+- [因特网是如何工作的(How does the internet work)](https://www.youtube.com/watch?v=zN8YNNHcaZc)
+- [CS50 HTTP课程](https://www.youtube.com/watch?v=PUPDGbnpSjw) (the [CS50 课程](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x) 在edX上的一个很好的课程)
+- [freeCodeCamp](https://www.freecodecamp.org/) - 在这里你可以学习关于HTML, CSS和JS怎么工作的基础。 除非你想要做前端开发， 你可能用不到他， 但是还是可以试试看并且学习他是如何工作的
 
-#### What makes decentralization important?
+#### 为什么去中心化很重要?
 
-In the web 2.0 world, we're used to have a main account on platforms like Google and Facebook which we use to log into other services. All of our data is hosted inside of centralized databases and our private information is used in advertising software to sell us products. In exchange for our data, we get free services. These big centralized entities have a lot of power and control over our daily lives through the products we use each and every day. This is the business model which has worked for the past few decades.
+在web2.0的世界中， 我们会在Google和Facebook这样的平台上有一个主要账户， 这个账户可以用来登录其他服务。 所有这些数据会被托管在一个中心化服务器中， 这样我们的个人隐私数据也可以随时被广告软件使用来卖给我们产品。 作为对我们个人数据的交换， 我们获得免费的服务。 这个巨大的中心化中心化实体通过我们每个人每天使用的产品， 控制了我们的日常生活， 从而拥有了巨大的权力。 这个商业模式已经运行了几十年。 
 
-When you decentralize the services and become a sovereign user, you can't be de-platformed, censored, or exploited. As long as you have access to a computer and to the internet you can use any application running on a permissionless and decentralized blockchain. Nobody can block access to them fundamentally, because you can always run a node and submit a call a smart contract and submit a transaction in the blockchain network. Decentralized applications are still in their infancy and many technologies are still not mature enough to support mainstream adoption, however, there is a huge demand for these applications and the industry is evolving rapidly.
+当我们把服务去中心化， 并且变成一个主权用户（sovereign user）， 你就不再能被平台驱逐，被监管和被利用。只要你可以访问任何一台电脑， 只要你可以访问互联网， 你就可以使用无需许可和去中心化的区块链上的任意应用。 没人能阻止从底层组织你的访问， 因为任意时候你都可以运行一个节点， 提交一个对智能合约的调用， 提交一个交易到区块链网络。 去中心化应用仍然处于起步阶段， 大多数应用都不够成熟， 无法被主流接受。 然而对这些应用依然有很多需求， 该行业也在迅速发展。
 
-In a web3 world, users own their assets, their money, their identity, and their data. This allows for a better user experience fundamentally, and even practically once these technologies become mature enough to support the masses. You can eventually have applications like decentralized social networks where users own their content, artists and musicians can produce their artwork and sell it as NFTs and get revenue from royalties and better engaging with their audiences, you can have virtual worlds where people own their digital identity, their virtual items, and their land, etc. The possibilities in web3 are growing day by day and I think it is one of the most exciting technologies that humankind has ever devised. It unlocks so much potential. 
+在web3世界， 用户拥有他们的资产， 他们的钱， 他们的身份和他们数据。 这从根本上为提供更好的用户体验提供了潜力， 当这些技术变得足够成熟的时候也将支持更多的用户。 最终将会有去中心化的社交网络， 用户拥有自己的内容， 艺术家和音乐家可以产出自己的作品， 并且卖NFT， 从版税中获取收益， 从而有更大的动力更好的和观众互动。 我们将会有一个虚拟世界， 这里人们拥有他们自己的数字身份， 虚拟物品和土地等等。 web3世界的可能性日与日俱增， 我认为他是人类历史上最激动人心的技术之一， 它有着无与伦比的可能。
 
 ### Web3 values
 
