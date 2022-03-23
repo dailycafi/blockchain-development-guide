@@ -206,8 +206,6 @@ contract Counter {
 
 任何想要构建全栈区块链应用的开发者都需要了解互联网和他最重要的协议是怎么工作的， 并且还需要知道如何在主要平台（web, mobile等）上构建UI。 你可以认为web3实际上是在互联网上增加了一个原生的价值层， 它也有助于构建社会协作和资源分配的去中心化的自治组织结构。了解Web和建立在其上的每个技术是如何运行的， 同时了解加密货币和web3如何工作的， 对创建一个更好的应用很有帮助。
 
-I believe that even though you might not work with developing front-ends it is still good to know how they work on a foundational level as in almost all kinds of development you'll interface with the web in some form. A good learning roadmap for the basics of how web technologies work is the [roadmap.sh frontend](https://roadmap.sh/frontend) initial steps in the roadmap. It is also a must to learn how to version control your code, Git is the most popular version control and collaboration software along with GitHub / GitLab for hosting repositories and interacting with other coders.
-
 我相信即使你不从事前端开发的工作，最基本的了解Web是如何工作的依然很有帮助。 因为在几乎所有类型的开发中，你都会以某种形式与前端对接。对于这些基础知识，一个很好的学习路线图是[roadmap.sh frontend](https://roadmap.sh/frontend)， 他提供了怎么开始学习这些知识。 同时学习怎么对你的代码进行版本控制， Git以及GitHub/GitLab这样的托管存储仓库(host repositories)无疑是最受欢迎的版本控制和软件开发协作工具， 
 
 ![前端路线图](./images/FE_roadmap.png)
