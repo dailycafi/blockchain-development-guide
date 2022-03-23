@@ -212,7 +212,7 @@ contract Counter {
 
 - **学习资源**
 - [因特网是如何工作的(How does the internet work)](https://www.youtube.com/watch?v=zN8YNNHcaZc)
-- [CS50 HTTP课程](https://www.youtube.com/watch?v=PUPDGbnpSjw) (the [CS50 课程](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x) 在edX上的一个很好的课程)
+- [CS50 HTTP课程](https://www.youtube.com/watch?v=PUPDGbnpSjw) ([CS50 课程](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x) 在edX上的一个很好的课程)
 - [freeCodeCamp](https://www.freecodecamp.org/) - 在这里你可以学习关于HTML, CSS和JS怎么工作的基础。 除非你想要做前端开发， 你可能用不到他， 但是还是可以试试看并且学习他是如何工作的
 
 #### 为什么去中心化很重要?
