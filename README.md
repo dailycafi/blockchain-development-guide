@@ -231,7 +231,7 @@ web3运动是一个为传统互联网添加价值层的运动， 在这里我们
 
 为了了解web3的价值以及我们如何创造一个更公平的世界， 请翻阅[Kernel's web3 课程](https://kernel.community/en/learn/).
 
-### Play around
+### 都试试看
 
 Blockchain development might feel overwhelming, and frankly very intimidating when you are starting out. To remedy this feeling, I suggest you look at programming on blockchains like an adventure game. You can explore what is possible, experiment by creating small projects with technologies that you find interesting, looking at what other people are building and interacting with their applications, debate with various people about their favorite applications, technologies and get a feel for how everything works. 
 
