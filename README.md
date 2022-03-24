@@ -225,11 +225,11 @@ contract Counter {
 
 ### Web3 价值
 
-The web3 movement is one about creating a value layer for the internet where we can setup incentive structures for the betterment of society in order to make a fairer world where access to products and services is openly distributed, permissionless and accessible to everyone on the planet no matter their provenance. 
+web3运动是一个为传统互联网添加价值层的运动， 在这里我们可以为社会的进步建立吉利结构， 建立一个更公平的世界， 在这个世界里产品和服务的访达是公开的， 分布式的， 也无需授权。 地球上的每个人不问出处， 都可以公平的使用。
 
-There are many good initiatives like [Kernel](https://kernel.community/en/), [Gitcoin](https://gitcoin.co/), [GreenPill](https://greenpill.party/) and many others that try to help educate about and fund the new wave of public goods and inrastructure in order to create a better world. As a blockchain developer, it is good to get a feeling for why these systems are built out in the first place and the values the products and services we create embody so as to not recreate the  centralized web2 world we currently have. 
+为实现建立更好的世界这个目标， 已经有很多很好的解决方案产品， 包括[Kernel](https://kernel.community/en/), [Gitcoin](https://gitcoin.co/), [GreenPill](https://greenpill.party/) 等等， 他们都试图帮助教育和资助新一代公益项目和基础设施建设。 作为一名区块链开发者， 了解为什么这样一种系统要被建立起来很重要， 时刻记得我们创造的产品和服务所体现的价值， 以确保我们不会去重现现有的web2中心化的世界。
 
-In order to learn more about web3 values and how we can create a fairer world, go over [Kernel's web3 lessons](https://kernel.community/en/learn/).
+为了了解web3的价值以及我们如何创造一个更公平的世界， 请翻阅[Kernel's web3 课程](https://kernel.community/en/learn/).
 
 ### Play around
 
