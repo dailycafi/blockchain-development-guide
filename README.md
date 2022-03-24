@@ -223,7 +223,7 @@ contract Counter {
 
 在web3世界， 用户拥有他们的资产， 他们的钱， 他们的身份和他们数据。 这从根本上为提供更好的用户体验提供了潜力， 当这些技术变得足够成熟的时候也将支持更多的用户。 最终将会有去中心化的社交网络， 用户拥有自己的内容， 艺术家和音乐家可以产出自己的作品， 并且卖NFT， 从版税中获取收益， 从而有更大的动力更好的和观众互动。 我们将会有一个虚拟世界， 这里人们拥有他们自己的数字身份， 虚拟物品和土地等等。 web3世界的可能性日与日俱增， 我认为他是人类历史上最激动人心的技术之一， 它有着无与伦比的可能。
 
-### Web3 values
+### Web3 价值
 
 The web3 movement is one about creating a value layer for the internet where we can setup incentive structures for the betterment of society in order to make a fairer world where access to products and services is openly distributed, permissionless and accessible to everyone on the planet no matter their provenance. 
 
