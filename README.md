@@ -231,7 +231,7 @@ web3运动是一个为传统互联网添加价值层的运动， 在这里我们
 
 为了了解web3的价值以及我们如何创造一个更公平的世界， 请翻阅[Kernel's web3 课程](https://kernel.community/en/learn/).
 
-### 都试试看
+### 多尝试
 
 区块链开发看上去很难， 但实际上你只是在刚接触的时候会觉得不知所措。 但不如暂时忽略这种感受， 把区块链编程看成一个冒险游戏。 你可以去探索各种可能， 用你觉得有趣的技术试着去写一些小项目， 看看其他人都在做什么， 试着和他们的产品做一些交互， 和他们讨论讨论大家喜欢的应用， 技术， 看看这些东西是如何工作的。
 
@@ -240,6 +240,8 @@ web3运动是一个为传统互联网添加价值层的运动， 在这里我们
 ### Connect
 
 Blockchain development is a fairly new field and so most information about how to build applications in web3 is available on the internet and not in universities and other educational institutions. This might make it a lonely endeavor, but it need not be! There are people all across the world learning how to build cool projects with these technologies and everyone is looking to learn from each other and make friends in the space. As mentioned before, join DAOs and groups like Newt, DeveloperDAO, EthernautDAO, etc, talk about your learning journey on Twitter and try to provide insight into your experience with learning these technologies. You're bound to find like-minded individuals with whom you can share your interests, it helps a lot with learning the material as when you have to explain a complex topic to a person without former knowledge, it forces you to understand your subject very well in order to explain it simply. Pair-programming or pair-learning is also a good way to cement new learnings. Personally, I found that making friends online that are also into blockchain development is what made it the most fun and engaging for me and is helping me stick with the material for longer periods of time than I otherwise would have. 
+
+区块链开发是个相当新的领域， 因此关于如何在web3中构建应用的信息多数在互联网上， 而不是在大学或者其他教育机构中。这听上去有些孤独， 但其实不必！世界各地的人们都在学习怎么用这些技术搭建最酷的项目， 每个人都在试图向他人学习， 并且在这个领域中
 
 Twitter is currently the platform where most builders, researchers, and creators share their insights in the realm of blockchain and web3, so it is almost a must if you want to keep up with the newest technologies. I also recommend to not overdoing social media as it can lead to a drastic decrease in productivity. It's a balance that needs to be achieved over time, a good tip is that whenever you want to check Twitter or Discord you have a clear goal in mind, e.g. goal: I want to learn what new gas optimizations have my friends come up with? I also recommend creating lists with different types of people so you can sort by the type of content you want to see (DeFi, NFTs, MEV, smart contracts, frontend, design, etc).  Bookmarking is also a good feature if you want to revisit interesting tweets in the future.
 
