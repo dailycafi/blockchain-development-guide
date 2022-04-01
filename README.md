@@ -248,13 +248,11 @@ web3运动是一个为传统互联网添加价值层的运动， 在这里我们
 我最近还创建了一个[区块链开发者列表](https://twitter.com/i/lists/1483458041412526084)， 我认为你想学习区块链开发， 你应该关注这个列表， 这是一个依然在维护中的列表， 如果你觉得有什么想要加进这个列表的， 请随时通过私信发给我， 我会考虑是不是将他们添加到列表中。
 
 
-### 建设
+### 开始建设
 
-下一步，
+很明显， 下一步，也是开始区块链开发的最后一步， 就是开始建设吧！在你读完前面几部分的这么多介绍性和基础性材料后， 你终于准备好投入到下面列出的某个专门领域中了。 如果你依然不太确定你要选择哪个方向， 就以开始全栈区块链开发为目标学习， 试试看所有的东西。开始写代码， 无论写出的代码多差， 然后试着从比你更资深的开发那里获得反馈。 请查阅我在下面列出的路线图， 学习概念， 记笔记， 围绕着他做一些实操， 做一些测试然后继续下一项。 如果这个过程中有什么主题让你感兴趣， 就用他来实际建设点东西， 看看这些技术会把你带向何方。 你自己的好奇心和兴趣是你在学习区块链开发时最好的朋友。 你要持续不断的问自己， 为什么我写的代码工作正常以及我怎么能把他优化的更好。 如果你自己没有答案的话就去找个人来帮你解释， 或者做一次Code Review。 多看看别人写的高质量代码也会对你很有帮助， 如果你学习solidity， 最好的进阶方式是看别人的产品代码， 比如Aave v3, Uniswap v3, Balancer v2等等。 同样的原则也同样适用于别的方向。
 
-The next and final step to get started with blockchain development should be obvious by now, it is to actually start building! After you've gone through the introductory foundational material that I wrote in the sections above you are ready to get going with one of the specializations listed below. If you are not sure which one you're into yet, just go with full-stack blockchain development and you'll get to try a bit of everything! Start writing code, no matter how bad it is, and try to get feedback on it from devs that know more than you do. Go through the roadmap that I have specified below, learn a concept, take notes, build something around it, do some testing and move on. If there is something that catches your attention, then try building something with it and see where it takes you. Your own curiosity and interest are your best friend when learning blockchain development. You should constantly ask yourself why did the thing that I wrote worked and how I could make it better, if you can't come up with an answer you either ask someone for an explanation or for a code review. It is also good to review quality code written by other teams. If you are learning Solidity, for example, the best way to learn advanced Solidity is to read into production codebases like Aave v3, Uniswap v3, Balancer v2, etc. The same principle applies to other categories and specializations as well. 
-
-Once you build something, share it with the world (unless it's a very profitable MEV bot)! Sharing it on Twitter and different Discords will bring attention to what you're doing and you might get constructive feedback and/or meet new friends that are interested in what you are building. If you are building something more complex, try creating documentation for it or make some useful comments if you expect other people to read your code. It is also great to share code and make it publicly available on hosting platforms like GitHub to build a portfolio of projects which you can showcase in order to show other people when applying for job positions. I'll revisit how to get employment in web3 in a later section. 
+一旦你开始建设一些东西， 并把它分享给整个世界（除非他是个能给你带来丰厚利润的MEV机器人）！在推特上分享， 在不同的discord频道里分享， 这将会给你所做的事情带来关注度， 并且也许还将给你带来一些建设性的反馈， 还会让你认识一些志同道合的新朋友。 如果你在建设一些比较复杂的项目， 觉得有一天别人会读你的diamante，试着同时准备完备的文档，在代码里添加有用的注解。 把代码在Github上以公开方式分享也是个好主意， 这会成为你简历的一部分， 有助于你申请一些新的职位。 接下里的部分我也将会介绍怎么在web3世界中获得一个职位。
 
 ## Skill-based development
 
