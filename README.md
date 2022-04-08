@@ -254,11 +254,11 @@ web3运动是一个为传统互联网添加价值层的运动， 在这里我们
 
 一旦你开始建设一些东西， 并把它分享给整个世界（除非他是个能给你带来丰厚利润的MEV机器人）！在推特上分享， 在不同的discord频道里分享， 这将会给你所做的事情带来关注度， 并且也许还将给你带来一些建设性的反馈， 还会让你认识一些志同道合的新朋友。 如果你在建设一些比较复杂的项目， 觉得有一天别人会读你的diamante，试着同时准备完备的文档，在代码里添加有用的注解。 把代码在Github上以公开方式分享也是个好主意， 这会成为你简历的一部分， 有助于你申请一些新的职位。 接下里的部分我也将会介绍怎么在web3世界中获得一个职位。
 
-## Skill-based development
+## 基于技能开发
 
-Now we get down to different specializations, before getting started looking at different paths you can take make sure you've gone through the [Foundational section](#general-foundation). I also suggest reading the introduction to each specialization in both the [skill-based development](#skill-based-development) and [application-based development](#application-based-development) categories so that you have a better idea of what's out there and what you might find interesting before going deeper into any specifical one. This section will focus on categorizing specializations in blockchain development with regard to the skillsets required within them.
+现在我们开始讨论不同， 在开始之前深入不同方向之前， 请确保你已经阅读了 [基础部分](#general-foundation). 建议你也读过了 [基于技能开发](#skill-based-development) 和 [基于应用开发](#application-based-development) 中对每个方向的介绍。 以便在深入了解某个具体专业之前， 你对每个方向上有什么，哪些内容让你感兴趣有足够的了解。 本节将重点对区块链开发中的专业方向进行分类， 了解每一种需要的技能组合
 
-### Front-end development
+### 前端开发
 
 Front-end (FE) development is probably the easiest out of all of the ones I'll be listing in my guide. Most of the technology stack blockchain developers use to build user interfaces for their applications overlaps with the traditional web-development infrastructure and so there are is a mature ecosystem of languages, libraries, and APIs you can make use of as a developer to make your life much easier as well as a vast community of developers which maintain codebases, provide support through platforms like [StackOverflow](https://stackoverflow.com/) and create very well produced tutorials and documentations for learning these established technologies, something which isn't the norm in rapidly emerging and constantly evolving web3 technologies.
 
